@@ -28,7 +28,7 @@ namespace CreateBackDb.Models
             g.SmoothingMode = SmoothingMode.AntiAlias;
             g.InterpolationMode = InterpolationMode.HighQualityBicubic;
             g.PixelOffsetMode = PixelOffsetMode.HighQuality;
-            g.DrawString(serverName, new Font("Tahoma", 60), Brushes.Red, rectf);
+            g.DrawString(serverName, new Font("Tahoma", 60), Brushes.White, rectf);
 
             g.Flush();
             g.Dispose();
